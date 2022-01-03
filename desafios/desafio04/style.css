@@ -1,0 +1,31 @@
+@charset "UTF-8";
+body {
+    font: normal normal 1em Arial;
+    background-color: #1e6091;
+}
+body > h1 {
+    color: white;
+    text-align: center;
+}
+main{
+    min-width: 300px;
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.342);
+}
+select {
+    min-width: 130px;
+    height: 176px;
+    line-height: 10px;
+    border-style: none;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.336);
+    overflow: hidden;
+    padding: 5px;
+}
+footer {
+    color: white;
+    text-align: center;
+}

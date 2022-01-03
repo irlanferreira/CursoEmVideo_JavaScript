@@ -1,0 +1,22 @@
+body {
+    font: normal normal 1em Arial, verdana, sans-serif;
+    background-color: #d8f3dc;
+}
+body > h1{
+    text-align: center;
+}
+main {
+    background-color: white;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.356);
+    min-width: 300px;
+    max-width: 600px;
+    margin: auto;
+}
+p#contando {
+    display:none
+}
+footer > p {
+    text-align: center;
+}

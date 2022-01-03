@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, verdana, sans-serif;
+    background-color: #ddb892;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+main{
+    min-width: 300px;
+    max-width: 700px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.295);
+}
+div#imagem {
+    text-align: center;
+}
+img#imagem {
+    display: none;
+}
+div#res {
+    text-align: center;
+}
+div#imagem {
+    margin: 10px 0px;
+}

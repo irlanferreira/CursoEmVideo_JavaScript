@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main {
+            min-width: 300px;
+            max-width: 1000px;
+            margin: auto;
+            text-align: center;
+        }
+        input {
+            margin: 20px 0px;
+        }
+    </style>
+</head>
+<body id="body">
+    <main>
+        <input type="color" name="" id="cor">
+        <br>
+        <input type="button" value="Modificar" onclick="modificarcor()">
+    </main>
+
+    <script>
+        function modificarcor(){
+            var cor = document.getElementById('cor').value
+            if(cor == '#9fe7eb'){
+                document.getElementById('body').style.backgroundImage = "url(kipilipitiki.ico)"
+            }else{
+                document.getElementById('body').style.background = cor
+            }
+            
+        }
+    </script>
+</body>
+</html>

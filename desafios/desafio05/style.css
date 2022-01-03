@@ -1,0 +1,21 @@
+body {
+    font: normal normal 1em Arial, verdana, sans-serif;
+    background-color: #ef476f;
+}
+body > h1, body > footer {
+    text-align: center;
+    color: white;
+}
+main {
+    padding: 10px;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.342);
+    min-width: 300px;
+    max-width: 600px;
+    margin: auto;
+}
+select {
+    min-width: 100px;
+    min-height: 100px;
+}
